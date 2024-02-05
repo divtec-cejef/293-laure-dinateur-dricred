@@ -51,6 +51,19 @@ body {
     color: #011627;
     background-color: #fdfffc;
 }
+header {
+    background-color: #011627;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+.logo {
+    font-family: 'Changa One', sans-serif;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -85,21 +98,27 @@ a {
     color: #e71d36;
     text-decoration: none;
 }
+.reseau-sociaux {
+    max-width: 200px;
+}
+.nom {
+    color: #2ec4b6;
+}
 /*****************************************************************************
                             PAGES ACCUEIL
  ****************************************************************************/
-.page-index h1 {
-    color: gold;
+.page-index {
+
 }
 /*****************************************************************************
                             PAGES CONTACT
  ****************************************************************************/
 .page-contact h1 {
-    color: turquoise;
+
 }
 /*****************************************************************************
                             PAGES INFORMATION
  ****************************************************************************/
-.page-info h1 {
-    color: lime;
+.page-info {
+    text-align: center;
 }
