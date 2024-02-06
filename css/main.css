@@ -52,12 +52,12 @@ body {
 }
 body img {
     border-radius: 100%;
-    max-width: 300px;
+    max-width: 30%;
 }
 header {
     background-color: #011627;
     padding-top: 5px;
-    margin-bottom: 30px;
+    text-align: center;
 }
 .logo {
     font-family: 'Changa One', sans-serif;
@@ -102,10 +102,15 @@ a {
     text-decoration: none;
 }
 .reseau-sociaux {
-    max-width: 150px;
+    max-width: 10%;
 }
 .nom {
     color: #2ec4b6;
+}
+.profil {
+    Display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*****************************************************************************
                             PAGES ACCUEIL
@@ -122,6 +127,13 @@ a {
 /*****************************************************************************
                             PAGES INFORMATION
  ****************************************************************************/
-.page-info {
+.page-info h1 {
     text-align: center;
 }
+ .page-info footer {
+     text-align: center;
+ }
+.page-info p {
+    margin-right: 10px;
+    margin-left: 10px;
+   }
