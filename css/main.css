@@ -36,7 +36,6 @@
     font-weight: 400;
     src: url('../fonts/changa-one-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
 /*****************************************************************************
                             REGLE GENERAL
  ****************************************************************************/
@@ -50,6 +49,10 @@ body {
     line-height: 1.4;
     color: #011627;
     background-color: #fdfffc;
+}
+body img {
+    border-radius: 100%;
+    max-width: 300px;
 }
 header {
     background-color: #011627;
@@ -99,7 +102,7 @@ a {
     text-decoration: none;
 }
 .reseau-sociaux {
-    max-width: 200px;
+    max-width: 150px;
 }
 .nom {
     color: #2ec4b6;
