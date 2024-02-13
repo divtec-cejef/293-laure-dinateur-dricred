@@ -1,5 +1,5 @@
 /*****************************************************************************
-                            POLICE
+                            POLICE                                           |
  ****************************************************************************/
 /* open-sans-regular - latin */
 @font-face {
@@ -37,7 +37,7 @@
     src: url('../fonts/changa-one-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /*****************************************************************************
-                            REGLE GENERAL
+                            REGLE GENERAL                                    |
  ****************************************************************************/
 * {
     box-sizing: border-box;
@@ -49,18 +49,12 @@ body {
     line-height: 1.4;
     color: #011627;
     background-color: #fdfffc;
-    margin: 0;
-}
-body img {
-    border-radius: 100%;
-    max-width: 30%;
 }
 img {
     max-width: 100%;
     height: auto;
     width: auto;
 }
-
 h1,
 h2,
 h3,
@@ -70,45 +64,32 @@ h6 {
     font-family: 'Changa One', sans-serif;
     font-weight: 400;
 }
-
 h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-
 h2 {
     font-size: 1.5rem;
     margin-bottom: .75rem;
 }
-
-p {
-    line-height: 1.5;
-}
-
 a {
     color: #e71d36;
     text-decoration: none;
-}
-.reseau-sociaux {
-    max-width: 10%;
-}
-.nom {
-    color: #2ec4b6;
 }
 .profil {
     Display: block;
     margin-left: auto;
     margin-right: auto;
-}
-footer {
-    text-align: center;
+    border-radius: 100%;
+    max-width: 30%;
 }
 p {
     margin-right: 10px;
     margin-left: 10px;
+    line-height: 1.5;
 }
 /*****************************************************************************
-                                EN TETE
+                                EN TETE                                      |
  ****************************************************************************/
 header {
     background-color: #011627;
@@ -132,25 +113,98 @@ header ul li {
 header ul li a {
     padding: 5px 10px;
     display: inline-block;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    color: #fdfffc;
+}
+header ul li a:hover,
+header ul li a.actif {
+   color: #2ec4b6;
 }
 .accueil {
     display: none;
 }
 
-/*****************************************************************************
-                            PAGES ACCUEIL
- ****************************************************************************/
-.page-index {
-
+.nom {
+    color: #2ec4b6;
 }
 /*****************************************************************************
-                            PAGES CONTACT
+                                PIEDS DE PAGE                                |
  ****************************************************************************/
-.page-contact h1 {
-
+footer {
+    text-align: center;
+}
+.reseau-sociaux {
+    max-width: 15%;
 }
 /*****************************************************************************
-                            PAGES INFORMATION
+                            PAGES ACCUEIL                                    |
+ ****************************************************************************/
+.page-index h1 {
+    text-align: center;
+}
+.page-index .realisation {
+    /* Reset style list */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* Affichage Flex */
+    display: flex;
+    flex-wrap: wrap;
+}
+.page-index .realisation li {
+    flex: 1 1 50% /* Tailles [min] [max] [taille idéal] */
+}
+.page-index figure {
+    margin: 0;
+    padding: 20px;
+}
+.page-index .realisation li a {
+    color: black;
+}
+.page-index .realisation li a figure figcaption {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #e7e9eb;
+}
+/*****************************************************************************
+                                PAGES CONTACT                                |
+*****************************************************************************/
+.page-contact h1,
+.page-contact section {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.phone{
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url("img/phone.png");
+}
+.mail {
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url("img/mail.png");
+}
+.twitter {
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url("img/twitter.png");
+}
+.facebook {
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+    font-size: 100%;
+    color: black;
+    display: list-item;
+    list-style-image: url("img/facebook.png");
+}
+/*****************************************************************************
+                            PAGES INFORMATION                                |
  ****************************************************************************/
 .page-info h1 {
     text-align: center;
